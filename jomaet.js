@@ -1,0 +1,42 @@
+/* PBJ by Jomaet https://repl.it/@YeseniaRecci/PBJ-Jomaet-E-Ortiz#script.js */
+goTo(cupboard);
+open(cupboard);
+pickUp(plate);
+hold(plate);
+goTo(counter);
+placeDown(plate);
+open(drawer);
+pickUp(butterKnife);
+hold(butterKnife);
+placeDown(butterKnife);
+goTo(pantry); 
+open(pantryDoor);
+pickUp(peanutbutterJar);
+hold(peanutbutterJar);
+goTo(counter);
+placeDown(peanutbutterJar);
+goTo(fridge);
+open(fridge);
+pickUp(jellyJar);
+hold(jellyJar):
+goTo(counter);
+putDown(jellyJar);
+pickUp(breadBag);
+hold(breadBag);
+open(breadbBag);
+pickUp(breadSlices, 2);
+putDown(breadSlices, 2);
+close(breadBag);
+pickUp(peanutbutterJar);
+hold(peanutbutterJar);
+open(peanutbutterJar);
+PickUp(butterknife);
+scoop(peanutbutter); 
+Spread(peanutbutteronBread);
+pickUp(jellyJar);
+Open(jellyJar);
+scoop(jelly);
+Spread(jellyonbreadSlice);
+putDown(butterKnife)
+hold(breadslices)
+putTwo(breadslicestogether)
